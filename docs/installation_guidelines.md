@@ -21,6 +21,6 @@ docker run -e "ACCEPT_EULA=Y"\
 
 
 ### SQL Server Management Studio (SSMS)
-To install SSMS, please follow the instructions in the below link:
+To install SSMS, please follow the instructions in the below link:  
 https://learn.microsoft.com/en-us/ssms/install/install
 
