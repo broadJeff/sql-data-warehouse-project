@@ -11,6 +11,7 @@ We will use MS SQL for the sql-data-warehouse-project. In order to use MS SQL, w
 For this project we will install the MS SQL 2022 using docker install instead of the local machine.
 I am using the below command to install a MS SQL 2022 docker image.
 
+```
 docker run -e "ACCEPT_EULA=Y"\
 -e "MSSQL_SA_PASSWORD={{{sa_password}}" \
 -e "MSSQL_PID=Developer" \
@@ -18,12 +19,16 @@ docker run -e "ACCEPT_EULA=Y"\
 --name sql2022 \
 -v sql2022_data:/var/opt/mssql \
 -d mcr.microsoft.com/mssql/server:2022-latest
-
 ```
+---------------------------
+TO be added: All the docker arguments defintions
+---------------------------
+
+Notes:
 - I have named the docker container as sql2022
 - So we can just use the command docker run sql2022 when we would to start it.
 - Use docker stop sql2022 to stop it.
-```
+
 
 
 ### SQL Server Management Studio (SSMS)
