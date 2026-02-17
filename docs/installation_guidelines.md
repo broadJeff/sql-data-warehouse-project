@@ -26,8 +26,8 @@ TO be added: All the docker arguments defintions
 
 Notes:
 - I have named the docker container as sql2022
-- So we can just use the command docker run sql2022 when we would to start it.
-- Use docker stop sql2022 to stop it.
+- So we can just use the command `docker run sql2022` when we would to start it.
+- Use `docker stop sql2022` to stop it.
 
 
 
